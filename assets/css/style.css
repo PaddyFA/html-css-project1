@@ -9,6 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+   /* background-color: black;*/
 }
 
 
@@ -19,7 +20,46 @@ h1, h2, h3 {
 
 }
 
+#nav-style {
+    list-style: none;
+    background-color: #000000;
+   
+}
+
 #navigation {
     display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 25px;
+    
+
+    
+
     
 }
+
+#navigation li a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
